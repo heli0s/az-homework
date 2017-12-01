@@ -7,7 +7,7 @@ subscription_id = azurerm.get_subscription_from_cli()
 
 # Define variables with random resource group and storage account names
 resourcegroup_name = 'rg-eqvknmx-'+''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(6))
-storageaccount_name = 'rgeqvknmx'+''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(6))
+storageaccount_name = 'amd'+''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(6))
 location = 'eastus'
 
 ###
